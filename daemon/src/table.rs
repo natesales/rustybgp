@@ -27,7 +27,7 @@ use std::ops::AddAssign;
 use std::str::FromStr;
 use std::sync::Arc;
 use std::time::SystemTime;
-use treebitmap::IpLookupTable;
+use ip_network_table_deps_treebitmap::IpLookupTable;
 
 use crate::api;
 use crate::error::Error;
